@@ -11,7 +11,6 @@ do
 	echo $time $i>>auto_update_log.log
 	opkg upgrade $i >>auto_update_log.log 2>&1	
 done; 
+time=$(date +%y-%m-%dT%H:%M:%S)
 echo 'end time :' $time>>auto_update_log.log
 echo '=======================================================' >>auto_update_log.log
- 
-
