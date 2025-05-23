@@ -11,9 +11,9 @@ function updater {
 function message {
 	
 	time=$(date +%y-%m-%d-T%H:%M:%S)
-	dates=$(date +%y%m%d)
+	yearMonth=$(date +%y%m)
 	bar='======================================================='
-	cur_log_file="auto_update_$dates.log"
+	cur_log_file="auto_update_$yearMonth.log"
 	int="$time: init time for update."
 	updating="$time: Updating: "
 	none="$time: No updates avalible."
