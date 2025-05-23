@@ -13,23 +13,23 @@ function message {
 	time=$(date +%y-%m-%d-T%H:%M:%S)
 	dates=$(date +%y%m%d)
 	bar='======================================================='
-	cur_log_fiel="auto_update_$dates.log"
+	cur_log_file="auto_update_$dates.log"
 	int="$time: init time for update."
 	updating="$time: Updating: "
 	none="$time: No updates avalible."
 	error="No valid code message."
 	case $1 in
 		1)
-			echo $bar >> $cur_log_fiel
-			echo $int >> $cur_log_fiel
-			updater $cur_log_fiel
+			echo $bar >> $cur_log_file
+			echo $int >> $cur_log_file
+			updater $cur_log_file
 			;;
 		2)
-			echo $updating $2 >> $cur_log_fiel
-			opkg update $2 >> $cur_log_fiel
+			echo $updating $2 >> $cur_log_file
+			opkg update $2 >> $cur_log_file
 			;;
 		3) 	
-			echo $none >> $cur_log_fiel
+			echo $none >> $cur_log_file
 			;;
 		*)
 			echo $error
