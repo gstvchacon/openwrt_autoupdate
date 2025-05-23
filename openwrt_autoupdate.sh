@@ -26,7 +26,7 @@ function message {
 			;;
 		2)
 			echo $updating $2 >> $cur_log_file
-			opkg update $2 >> $cur_log_file
+			opkg upgrade $2 >> $cur_log_file
 			;;
 		3) 	
 			echo $none >> $cur_log_file
