@@ -1,0 +1,86 @@
+=======================================================
+25-05-31-T13:36:41: init time for update.
+Downloading https://downloads.openwrt.org/releases/24.10.1/targets/ramips/mt7621/packages/Packages.gz
+Updated list of available packages in /usr/lib/opkg/lists/openwrt_core
+Downloading https://downloads.openwrt.org/releases/24.10.1/targets/ramips/mt7621/packages/Packages.sig
+Signature check passed.
+Downloading https://downloads.openwrt.org/releases/24.10.1/packages/mipsel_24kc/base/Packages.gz
+Updated list of available packages in /usr/lib/opkg/lists/openwrt_base
+Downloading https://downloads.openwrt.org/releases/24.10.1/packages/mipsel_24kc/base/Packages.sig
+Signature check passed.
+Downloading https://downloads.openwrt.org/releases/24.10.1/targets/ramips/mt7621/kmods/6.6.86-1-2a6d68f3ded425efc0850296e7f62d53/Packages.gz
+Updated list of available packages in /usr/lib/opkg/lists/openwrt_kmods
+Downloading https://downloads.openwrt.org/releases/24.10.1/targets/ramips/mt7621/kmods/6.6.86-1-2a6d68f3ded425efc0850296e7f62d53/Packages.sig
+Signature check passed.
+Downloading https://downloads.openwrt.org/releases/24.10.1/packages/mipsel_24kc/luci/Packages.gz
+Updated list of available packages in /usr/lib/opkg/lists/openwrt_luci
+Downloading https://downloads.openwrt.org/releases/24.10.1/packages/mipsel_24kc/luci/Packages.sig
+Signature check passed.
+Downloading https://downloads.openwrt.org/releases/24.10.1/packages/mipsel_24kc/packages/Packages.gz
+Updated list of available packages in /usr/lib/opkg/lists/openwrt_packages
+Downloading https://downloads.openwrt.org/releases/24.10.1/packages/mipsel_24kc/packages/Packages.sig
+Signature check passed.
+Downloading https://downloads.openwrt.org/releases/24.10.1/packages/mipsel_24kc/routing/Packages.gz
+Updated list of available packages in /usr/lib/opkg/lists/openwrt_routing
+Downloading https://downloads.openwrt.org/releases/24.10.1/packages/mipsel_24kc/routing/Packages.sig
+Signature check passed.
+Downloading https://downloads.openwrt.org/releases/24.10.1/packages/mipsel_24kc/telephony/Packages.gz
+Updated list of available packages in /usr/lib/opkg/lists/openwrt_telephony
+Downloading https://downloads.openwrt.org/releases/24.10.1/packages/mipsel_24kc/telephony/Packages.sig
+Signature check passed.
+25-05-31-T13:36:55: Updating: luci-mod-system
+Upgrading luci-mod-system on root from 25.103.51521~2ac26e5 to 25.137.37373~691440a...
+Downloading https://downloads.openwrt.org/releases/24.10.1/packages/mipsel_24kc/luci/luci-mod-system_25.137.37373~691440a_all.ipk
+Configuring luci-mod-system.
+25-05-31-T13:37:00: Updating: luci-theme-bootstrap
+Upgrading luci-theme-bootstrap on root from 25.103.51521~2ac26e5 to 25.137.37373~691440a...
+Downloading https://downloads.openwrt.org/releases/24.10.1/packages/mipsel_24kc/luci/luci-theme-bootstrap_25.137.37373~691440a_all.ipk
+Configuring luci-theme-bootstrap.
+25-05-31-T13:37:06: Updating: luci-mod-status
+Upgrading luci-mod-status on root from 25.103.51521~2ac26e5 to 25.137.37373~691440a...
+Downloading https://downloads.openwrt.org/releases/24.10.1/packages/mipsel_24kc/luci/luci-mod-status_25.137.37373~691440a_mipsel_24kc.ipk
+Configuring luci-mod-status.
+25-05-31-T13:37:11: Updating: luci-app-firewall
+Upgrading luci-app-firewall on root from 25.103.51521~2ac26e5 to 25.137.37373~691440a...
+Downloading https://downloads.openwrt.org/releases/24.10.1/packages/mipsel_24kc/luci/luci-app-firewall_25.137.37373~691440a_all.ipk
+Configuring luci-app-firewall.
+25-05-31-T13:37:17: Updating: luci-ssl
+Upgrading luci-ssl on root from 25.103.51521~2ac26e5 to 25.137.37373~691440a...
+Downloading https://downloads.openwrt.org/releases/24.10.1/packages/mipsel_24kc/luci/luci-ssl_25.137.37373~691440a_all.ipk
+Configuring luci-ssl.
+25-05-31-T13:37:22: Updating: luci-app-package-manager
+Upgrading luci-app-package-manager on root from 25.103.51521~2ac26e5 to 25.137.37373~691440a...
+Downloading https://downloads.openwrt.org/releases/24.10.1/packages/mipsel_24kc/luci/luci-app-package-manager_25.137.37373~691440a_all.ipk
+Configuring luci-app-package-manager.
+25-05-31-T13:37:28: Updating: luci-proto-ppp
+Upgrading luci-proto-ppp on root from 25.103.51521~2ac26e5 to 25.137.37373~691440a...
+Downloading https://downloads.openwrt.org/releases/24.10.1/packages/mipsel_24kc/luci/luci-proto-ppp_25.137.37373~691440a_all.ipk
+Configuring luci-proto-ppp.
+25-05-31-T13:37:33: Updating: luci-mod-admin-full
+Upgrading luci-mod-admin-full on root from 25.103.51521~2ac26e5 to 25.137.37373~691440a...
+Downloading https://downloads.openwrt.org/releases/24.10.1/packages/mipsel_24kc/luci/luci-mod-admin-full_25.137.37373~691440a_all.ipk
+Configuring luci-mod-admin-full.
+25-05-31-T13:37:39: Updating: luci-base
+Upgrading luci-base on root from 25.103.51521~2ac26e5 to 25.137.37373~691440a...
+Downloading https://downloads.openwrt.org/releases/24.10.1/packages/mipsel_24kc/luci/luci-base_25.137.37373~691440a_mipsel_24kc.ipk
+Configuring luci-base.
+25-05-31-T13:37:47: Updating: luci-proto-ipv6
+Upgrading luci-proto-ipv6 on root from 25.103.51521~2ac26e5 to 25.137.37373~691440a...
+Downloading https://downloads.openwrt.org/releases/24.10.1/packages/mipsel_24kc/luci/luci-proto-ipv6_25.137.37373~691440a_all.ipk
+Configuring luci-proto-ipv6.
+25-05-31-T13:37:53: Updating: luci
+Upgrading luci on root from 25.103.51521~2ac26e5 to 25.137.37373~691440a...
+Downloading https://downloads.openwrt.org/releases/24.10.1/packages/mipsel_24kc/luci/luci_25.137.37373~691440a_all.ipk
+Configuring luci.
+25-05-31-T13:37:58: Updating: luci-light
+Upgrading luci-light on root from 25.103.51521~2ac26e5 to 25.137.37373~691440a...
+Downloading https://downloads.openwrt.org/releases/24.10.1/packages/mipsel_24kc/luci/luci-light_25.137.37373~691440a_all.ipk
+Configuring luci-light.
+25-05-31-T13:38:03: Updating: luci-mod-network
+Upgrading luci-mod-network on root from 25.103.51521~2ac26e5 to 25.137.37373~691440a...
+Downloading https://downloads.openwrt.org/releases/24.10.1/packages/mipsel_24kc/luci/luci-mod-network_25.137.37373~691440a_all.ipk
+Configuring luci-mod-network.
+25-05-31-T13:38:09: Updating: jsonfilter
+Upgrading jsonfilter on root from 2024.01.23~594cfa86-r1 to 2025.04.18~8a86fb78-r1...
+Downloading https://downloads.openwrt.org/releases/24.10.1/packages/mipsel_24kc/base/jsonfilter_2025.04.18~8a86fb78-r1_mipsel_24kc.ipk
+Configuring jsonfilter.

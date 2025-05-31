@@ -2,7 +2,7 @@
 ##gstvchacon@gmail.com
 ##Version 2
 ##OpenWRT
-set -x
+#set -x
 
 function updater {
 	opkg update >> $1
